@@ -1,0 +1,993 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="www.mundomidia.com">
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	
+    <title>WM TELEFONIA E INFORMÁTICA</title>
+    
+    <!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+	
+	
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" rel="stylesheet">
+
+	
+	
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="js/bootstrap-toastr/toastr.min.css"/>
+    
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    
+    
+     
+ <style>
+     
+     body {
+  background-color: #00000020 !important;
+        
+}
+   
+    #footer a:hover {
+  color: #FFFFFF50 !important;
+} 
+     
+     
+     
+     #bottom {
+
+     border-bottom: 5px solid #0c36ac !important; 
+     
+     }  
+     
+	.letra {
+		font-size: 16px;
+	}
+	.noprint {
+		display: none
+	}
+	.btnapproval{
+		cursor: pointer;
+	}
+	.tabela1{
+		margin: 0 !important;
+	}
+	.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+		background-color: #0c36ac;
+		color: #fff; 
+	} 
+     
+    #services  {
+     background-color: #0c36ac;
+		color: #fff; 
+        
+        
+     }
+     
+     .social-share > li > a:hover {
+		background-color: #0c36ac90;
+		color: #fff;
+	}  
+     
+   .icone  {
+		background:#000000 !important;
+      
+	}
+   .icone:hover  {
+		background:#00000090 !important;
+      
+	}  
+     
+     
+	.navbar-inverse .navbar-nav > li > a:hover {
+		background-color: #0c36ac;
+		color: #fff;
+	} 
+	.navbar-inverse .navbar-nav .dropdown-menu > li:hover > a, .navbar-inverse .navbar-nav .dropdown-menu > li:focus > a, .navbar-inverse .navbar-nav .dropdown-menu > li.active > a {
+		background-color: #0c36ac;
+		color: #fff;
+	}
+	.pricing-area .heading-one, .pricing-area .price-one .plan-action .btn-primary {
+		background: #0c36ac;
+	}
+	.top-bar {
+		background: #0c36ac;
+		border-bottom: 1px solid #0c36ac90;
+        
+	}
+	.navbar {
+		background: #000000;
+        
+	}
+	#footer { 
+		background: #000000;
+	}
+	#main-slider .carousel-indicators .active:after {
+		background: #0c36ac;
+		border: 1px solid #0c36ac;
+	}
+	.navbar-nav>li {
+		margin-left: 8px;
+		padding-bottom: 0px;
+		margin-bottom: 10px;
+	}
+	
+	
+	.btnEnviarMensagem{
+		background:#000000 !important;
+	}
+	.navbar-inverse .navbar-nav .dropdown-menu {
+		background-color: #000000;
+		
+	}
+	
+  @media screen and (min-width: 768px) {
+		#main-slider { 
+			padding-top:0px;
+		}		
+	} 
+	
+  @media (max-width: 768px) {
+    .collapse-dropdown {
+      display: block !important;
+	  position: relative !important;
+	  float: none !important;
+	  overflow-y: auto;
+    }
+  }
+	
+</style>   
+    
+<script>
+  function dropdownResponsive(elemento) {
+    const isActived = $(elemento).attr('aria-expanded');
+    if (isActived === 'true') {
+       $(elemento).attr('aria-expanded', 'false');
+       $(elemento).next(".dropdown-menu").removeClass('collapse-dropdown');
+    } else {
+       $(elemento).attr('aria-expanded', 'true');
+       $(elemento).next(".dropdown-menu").addClass('collapse-dropdown');
+    }
+  }
+</script>
+    
+    
+</head><!--/head-->
+
+<body>
+
+    <header id="header" class="hidden-print ">
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-6">
+                        <div class="top-number"><p><i class="fa fa-phone-square"></i>  (88)98135-3969</p></div>
+                    </div>
+                    <div class="col-sm-6 col-xs-6">
+                       <div class="social">
+                            <ul class="social-share">
+                                
+									<li><a class="icone backgroundAppear" target="_blank" href="https://www.facebook.com/wmtelefonia"><i class="fa fa-facebook"></i></a></li>
+								
+									<li><a class="icone backgroundAppear" target="_blank" href="https://www.instagram.com/wmtelefonia"><i class="fa fa-instagram"></i></a></li>
+								
+									<li><a class="icone backgroundAppear" target="_blank" href="https://wa.me/5588981353969"><i class="fab fa-whatsapp" aria-hidden="true"></i>
+</a></li>
+								     
+                                    
+                               
+                            </ul>
+                            
+                       </div>
+                    </div>
+                </div>
+            </div><!--/.container-->
+        </div><!--/.top-bar-->
+
+        <nav class="navbar navbar-inverse hidden-print " role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="default.asp"><img src="visual/logo.jpg" alt="logo"></a>
+                </div>
+                
+                <div class="collapse navbar-collapse navbar-right">
+                   <ul class="nav navbar-nav">
+                        <li id="menuInicio"><a  href="default.asp">In&iacute;cio</a></li>
+                        <li id="menuSobre"><a  href="quemsomos.asp">Sobre</a></li>  
+<li id="menuSobre"><a  href="area_cliente.asp">Area do cliente</a></li> 						
+                        <li id="menuContato"><a  href="contato.asp">Contato</a></li> 
+						
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" aria-expanded="false" data-toggle="dropdown" onclick="dropdownResponsive(this)">Serviços <i class="fa fa-angle-down"></i></a> 
+									<ul class="dropdown-menu">
+									
+                                        
+                                        
+                                        
+										<li><a href="pagina.asp?aba=1&abaItem=1">REPAROS ELETROELETRONICOS</a></li>
+									
+                                        
+                                        
+                                        
+										<li><a href="pagina.asp?aba=1&abaItem=2">TELEFONIA E INFORMATICA</a></li>
+									
+										
+										
+									</ul>
+								</li>
+						
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->         
+      </header><!--/header-->
+
+    <section id="contact-info">
+        <div class="center">                
+            <h2>Como nos encontrar?</h2>
+        </div>
+        <div class="gmap-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 text-center">											
+                        <div id="googleMap" class="gmap"></div>					
+                    </div>
+
+                    <div class="col-sm-7 map-content">
+                        <ul class="row">
+                            <li class="col-sm-12">
+                                <address>
+                                    <h5>Endereço</h5>
+                                    <p>RUA DR. JOSÉ VIEIRA, 35, CENTRO - JARDIM - CE. CEP: 63.290-000<br></p>
+                                    <p>Telefone: (88)98135-3969 <br>
+                                    </p>
+                                </address>
+                       
+                            </li>                         
+                       </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  <!--/gmap_area -->
+	</br>
+	
+	<script>
+	function mensagemtoaster (minhamensagem)	
+	{
+		//inicia o toaster	 
+		Command: toastr["success"](minhamensagem)
+
+		toastr.options = {
+		  "closeButton": false,
+		  "debug": false,
+		  "newestOnTop": false,
+		  "progressBar": false,
+		  "positionClass": "toast-top-right",
+		  "preventDuplicates": false,
+		  "onclick": null,
+		  "showDuration": "300",
+		  "hideDuration": "1000",
+		  "timeOut": "9000",
+		  "extendedTimeOut": "1000",
+		  "showEasing": "swing",
+		  "hideEasing": "linear",
+		  "showMethod": "fadeIn",
+		  "hideMethod": "fadeOut"
+		}
+		//fim do toaster
+	}
+	</script>
+<section id="contact-page">
+        <div class="container">
+			<div class="col-md-12" style="padding:30px;">
+            <div class="center">        
+                <h2>Entre em contato</h2>
+                <p class="lead">Preencha o formul&aacute;rio abaixo</p>
+            </div> 
+            <div class="row contact-wrap"> 
+                <div class="status alert alert-success" style="display: none"></div>
+                <form  class="contact-form" method="post" name="formularioemail" id="formularioemail">
+                    <div class="col-sm-5 col-sm-offset-1">
+                        <div class="form-group">
+                            <label>Nome *</label>
+                            <input type="text" name="nome" id="nome" class="form-control" required="required">
+                        </div>
+                        <div class="form-group">
+                            <label>Email *</label>
+                            <input type="email" name="email" id="email" class="form-control" required="required">
+                        </div>
+                        <div class="form-group">
+                            <label>Telefone</label>
+                            <input type="number" name="telefone" id="telefone" class="form-control">
+                        </div>                                           
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="form-group">
+                            <label>Assunto *</label>
+                            <input type="text" id="assunto" name="assunto" class="form-control" required="required">
+                        </div>
+                        <div class="form-group">
+                            <label>Mensagem *</label>
+                            <textarea name="mensagem" id="mensagem" required="required" class="form-control" rows="8"></textarea>
+                        </div>                        
+                        <div class="form-group">
+                            <button type="button" onClick="enviaremaildefinitivo()" name="submit" class="btn btn-primary btn-lg btnEnviarMensagem backgroundAppear" required="required">Enviar mensagem</button>
+                        </div>
+						
+                    </div>
+					<input name="teste" type="hidden" id="teste" value="aqui vem a mensagem" />
+                </form> 
+            </div><!--/.row-->
+			</div>
+        </div><!--/.container-->
+</section><!--/#contact-page-->
+
+
+
+
+
+
+
+
+
+
+
+
+<!--/comeca o mapa-->
+<!--/SEM A CHAVE API O MAPA NAO FUNCIONA-->
+<script src="https://maps.googleapis.com/maps/api/js?key=" type="text/javascript"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=&libraries=places"></script>
+	<script src="tema/assets/global/scripts/locationpicker.jquery.min.js"></script>	
+	<script src="tema/tinymce.min.js"></script>
+
+
+<script>
+  function googleMapInit() {
+			$('#map').locationpicker({
+					location: {
+						latitude: -7.582596199999999,
+						longitude: -39.2822517
+					},
+					radius: 0,
+					inputBinding: {
+						latitudeInput: $('-7.582596199999999'),
+						longitudeInput: $('-39.2822517')
+						
+					},
+					enableAutocomplete: true				
+				});			
+		}
+    
+    
+  googleMapInit();   
+    
+</script>										
+													<div class="col-md-12">
+														<div class="row">
+															
+															<div class="col-md-12">
+																<div id="map" style="height:400px;"></div>
+															</div>
+														</div>
+													</div>
+													
+													
+												
+                                    
+
+<!--/termina o --> 
+
+
+
+<script>
+	function enviaremaildefinitivo(){
+		mensagemtoaster("Enviando...");
+		var url = "AJAX_RECEBER_EMAIL.asp?ACAO=ENVIAR_EMAIL"; // El script a dónde se realizará la petición.
+		$.ajax({
+			type: "POST",
+			url: url,
+			data: $("#formularioemail").serialize(), // Adjuntar los campos del formulario enviado.
+			success: function(data){
+				mensagemtoaster("Email enviado com sucesso!");
+				$("#formularioemail")[0].reset();
+			}
+		});
+		return false; // Evitar ejecutar el submit del formulario.
+	};
+</script>                           
+                            
+    <section id="bottom"></section><!--/#bottom-->
+
+    <footer id="footer" class="midnight-blue hidden-print">
+        <div class="container">
+            <div class="row">
+                
+				
+				
+				<div class="col-sm-6">
+                  Todos os direitos reservados a Mundomidia Ltda.  &copy; 2025 <a target="_blank" href="https://www.nuvemgestor.com.br/" title="Software de gestão online para empresas">www.nuvemgestor.com.br</a>
+                </div>
+				
+				
+				
+                <div class="col-sm-6">
+                    <ul class="pull-right">
+                        <li><a href="default.asp">Home</a></li>
+                        <li><a href="quemsomos.asp">Sobre</a></li>
+                        <li><a href="area_cliente.asp">Area do cliente</a></li>
+                        <li><a href="contato.asp">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+</body>
+</html>
+                            
+ <script type="text/javascript">
+  $(document).ready(function() {                           
+                            
+var uri_title_dec = decodeURIComponent("");
+	$("#titleSection").html(uri_title_dec);
+	var uri_dec = decodeURIComponent("%3Ch2%20style%3D%22color%3A%20rgb(255%2C%20255%2C%200)%3B%22%3E%3Cstrong%3EENTRE%20EM%20CONTATO%20CONOSCO!%3C%2Fstrong%3E%3Cbr%2F%3E%20%20%20%20%3Ca%20href%3D%22https%3A%2F%2Fapi.whatsapp.com%2Fsend%2F%3Fphone%3D5588981353969%26text%26type%3Dphone_number%26app_absent%3D0%22target%3D%22_blank%22%3E%20%20%3Cbr%2F%3E%20%20%20%20%20%20%20%20%3Cimg%20class%3D%22img-responsive%22%20style%3D%22width%3A%20300px%3B%20margin%3A%200%20auto%3B%22%20src%3D%22https%3A%2F%2Fpreviewengine-accl.zoho.com%2Fimage%2FWD%2Fr5g15e8853cf105cb4174985e281149b198fc%3Fversion%3D1.0%26width%3D2046%26height%3D1536%22%3E%3C%2Fa%3E%3Cbr%2F%3E%20%20%20%20%3Cdiv%20class%3D%22container%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%3Cdiv%20class%3D%22center%20wow%20fadeInDown%20animated%20animated%20animated%22%20style%3D%22visibility%3A%20visible%3B%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%3Ch2%20style%3D%22color%3A%20rgb(255%2C%20255%2C%200)%3B%22%3E%3Cstrong%3EServi%C3%A7os%3C%2Fstrong%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22row%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-xs-12%20col-sm-6%20col-md-4%20col-lg-4%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20class%3D%22img-responsive%22%20id%3D%22logo%22%20src%3D%22https%3A%2F%2Fpreviewengine-accl.zoho.com%2Fimage%2FWD%2Fr5g15c4d9d3c8ff4344159fd2e4921da88bcf%3Fversion%3D1.0%26width%3D2046%26height%3D1536%22%3E%20%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%20%3Cdiv%20class%3D%22col-xs-12%20col-sm-6%20col-md-4%20col-lg-4%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20class%3D%22img-responsive%22%20id%3D%22logo%22%20src%3D%22https%3A%2F%2Fpreviewengine-accl.zoho.com%2Fimage%2FWD%2Fr5g1521b45c39f7e74b4e9a231ba65a43be1c%3Fversion%3D1.0%26width%3D2046%26height%3D1536%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%20%3Cdiv%20class%3D%22col-xs-12%20col-sm-6%20col-md-4%20col-lg-4%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20class%3D%22img-responsive%22%20id%3D%22logo%22%20src%3D%22https%3A%2F%2Fpreviewengine-accl.zoho.com%2Fimage%2FWD%2Fr5g15df4243fae3a94deeb29dac86ae86011a%3Fversion%3D1.0%26width%3D2046%26height%3D1536%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%20%3Cdiv%20class%3D%22col-xs-12%20col-sm-6%20col-md-4%20col-lg-4%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20class%3D%22img-responsive%22%20id%3D%22logo%22%20src%3D%22https%3A%2F%2Fpreviewengine-accl.zoho.com%2Fimage%2FWD%2Fr5g15d6cde32c1b584ad29eeff21b7f61a97d%3Fversion%3D1.0%26width%3D2046%26height%3D1536%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%20%3Cdiv%20class%3D%22col-xs-12%20col-sm-6%20col-md-4%20col-lg-4%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20class%3D%22img-responsive%22%20id%3D%22logo%22%20src%3D%22https%3A%2F%2Fpreviewengine-accl.zoho.com%2Fimage%2FWD%2Fr5g152fd7157250be41409013c81a11a7cfca%3Fversion%3D1.0%26width%3D2046%26height%3D1536%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%20%3Cdiv%20class%3D%22col-xs-12%20col-sm-6%20col-md-4%20col-lg-4%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20class%3D%22img-responsive%22%20id%3D%22logo%22%20src%3D%22https%3A%2F%2Fpreviewengine-accl.zoho.com%2Fimage%2FWD%2Fr5g15ea85fc14b255452eb2c47a032ebcbc3b%3Fversion%3D1.0%26width%3D2046%26height%3D1536%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%20%3Cdiv%20class%3D%22col-xs-12%20col-sm-6%20col-md-4%20col-lg-4%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20class%3D%22img-responsive%22%20id%3D%22logo%22%20src%3D%22https%3A%2F%2Fpreviewengine-accl.zoho.com%2Fimage%2FWD%2Fr5g15eb60a5ea07114498bb5867062a53a6f9%3Fversion%3D1.0%26width%3D2046%26height%3D1536%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%20%3Cdiv%20class%3D%22col-xs-12%20col-sm-6%20col-md-4%20col-lg-4%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20class%3D%22img-responsive%22%20id%3D%22logo%22%20src%3D%22https%3A%2F%2Fpreviewengine-accl.zoho.com%2Fimage%2FWD%2Fr5g156c59f4256edf4252893dd64b4d329d6f%3Fversion%3D1.0%26width%3D2046%26height%3D1536%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%20%3Cdiv%20class%3D%22col-xs-12%20col-sm-6%20col-md-4%20col-lg-4%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20class%3D%22img-responsive%22%20id%3D%22logo%22%20src%3D%22https%3A%2F%2Fpreviewengine-accl.zoho.com%2Fimage%2FWD%2Fr5g153667ce68b5f34a3ab7c1af8e7ea00dff%3Fversion%3D1.0%26width%3D2046%26height%3D1536%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%20%20%3Cbr%2F%3E%20%20%3Ch2%20style%3D%22color%3A%20rgb(255%2C%20255%2C%200)%3B%22%3E%3Cstrong%3EWMTELEFONIA%3C%2Fstrong%3E%3Cbr%2F%3E%20%20%20%20%3Ca%20href%3D%22https%3A%2F%2Fwww.instagram.com%2Fwmtelefonia%22target%3D%22_blank%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%3Cimg%20class%3D%22img-responsive%22%20style%3D%22width%3A%20300px%3B%20margin%3A%200%20auto%3B%22%20src%3D%22https%3A%2F%2Fpreviewengine-accl.zoho.com%2Fimage%2FWD%2Fr5g1571479db7286e4da88bfb5e631670e9b9%3Fversion%3D1.0%26width%3D2046%26height%3D1536%22%3E%3C%2Fa%3E");
+	$("#textSection").html(uri_dec);  
+      
+  })
+     </script>
+                                    
+                                    
+        
+<script type="text/javascript">
+  $(document).ready(function() {
+	
+	
+	$( "#historico_cliente" ).on( "click", function() {
+	    $.ajax({
+			method: "POST",
+			url:"GERENCIA_AREA_CLIENTE.asp?acao=LOGIN_AREA_CLIENTE",
+			data: $("#form1").serialize(),
+			success:function(data){
+				if (data == "true") {
+					$("#form1").submit();
+				}else {
+					$("#dadosIncorretos").show();
+				}	
+			}
+		});
+	});
+    // Mascara de CPF e CNPJ
+	var CpfCnpjMaskBehavior = function (val) {
+				return val.replace(/\D/g, '').length <= 11 ? '000.000.000-009' : '00.000.000/0000-00';
+			},
+		cpfCnpjpOptions = {
+			onKeyPress: function(val, e, field, options) {
+			field.mask(CpfCnpjMaskBehavior.apply({}, arguments), options);
+		  }
+		};
+
+	$(function() {
+		$('#CPFCNPJ').mask(CpfCnpjMaskBehavior, cpfCnpjpOptions);
+	})
+	
+    var contador = 0;
+	var uri_title_dec = decodeURIComponent("");
+	$("#titleSection").html(uri_title_dec);
+	var uri_dec = decodeURIComponent("%3Ch2%20style%3D%22color%3A%20rgb(255%2C%20255%2C%200)%3B%22%3E%3Cstrong%3EENTRE%20EM%20CONTATO%20CONOSCO!%3C%2Fstrong%3E%3Cbr%2F%3E%20%20%20%20%3Ca%20href%3D%22https%3A%2F%2Fapi.whatsapp.com%2Fsend%2F%3Fphone%3D5588981353969%26text%26type%3Dphone_number%26app_absent%3D0%22target%3D%22_blank%22%3E%20%20%3Cbr%2F%3E%20%20%20%20%20%20%20%20%3Cimg%20class%3D%22img-responsive%22%20style%3D%22width%3A%20300px%3B%20margin%3A%200%20auto%3B%22%20src%3D%22https%3A%2F%2Fpreviewengine-accl.zoho.com%2Fimage%2FWD%2Fr5g15e8853cf105cb4174985e281149b198fc%3Fversion%3D1.0%26width%3D2046%26height%3D1536%22%3E%3C%2Fa%3E%3Cbr%2F%3E%20%20%20%20%3Cdiv%20class%3D%22container%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%3Cdiv%20class%3D%22center%20wow%20fadeInDown%20animated%20animated%20animated%22%20style%3D%22visibility%3A%20visible%3B%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%3Ch2%20style%3D%22color%3A%20rgb(255%2C%20255%2C%200)%3B%22%3E%3Cstrong%3EServi%C3%A7os%3C%2Fstrong%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22row%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22col-xs-12%20col-sm-6%20col-md-4%20col-lg-4%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20class%3D%22img-responsive%22%20id%3D%22logo%22%20src%3D%22https%3A%2F%2Fpreviewengine-accl.zoho.com%2Fimage%2FWD%2Fr5g15c4d9d3c8ff4344159fd2e4921da88bcf%3Fversion%3D1.0%26width%3D2046%26height%3D1536%22%3E%20%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%20%3Cdiv%20class%3D%22col-xs-12%20col-sm-6%20col-md-4%20col-lg-4%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20class%3D%22img-responsive%22%20id%3D%22logo%22%20src%3D%22https%3A%2F%2Fpreviewengine-accl.zoho.com%2Fimage%2FWD%2Fr5g1521b45c39f7e74b4e9a231ba65a43be1c%3Fversion%3D1.0%26width%3D2046%26height%3D1536%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%20%3Cdiv%20class%3D%22col-xs-12%20col-sm-6%20col-md-4%20col-lg-4%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20class%3D%22img-responsive%22%20id%3D%22logo%22%20src%3D%22https%3A%2F%2Fpreviewengine-accl.zoho.com%2Fimage%2FWD%2Fr5g15df4243fae3a94deeb29dac86ae86011a%3Fversion%3D1.0%26width%3D2046%26height%3D1536%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%20%3Cdiv%20class%3D%22col-xs-12%20col-sm-6%20col-md-4%20col-lg-4%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20class%3D%22img-responsive%22%20id%3D%22logo%22%20src%3D%22https%3A%2F%2Fpreviewengine-accl.zoho.com%2Fimage%2FWD%2Fr5g15d6cde32c1b584ad29eeff21b7f61a97d%3Fversion%3D1.0%26width%3D2046%26height%3D1536%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%20%3Cdiv%20class%3D%22col-xs-12%20col-sm-6%20col-md-4%20col-lg-4%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20class%3D%22img-responsive%22%20id%3D%22logo%22%20src%3D%22https%3A%2F%2Fpreviewengine-accl.zoho.com%2Fimage%2FWD%2Fr5g152fd7157250be41409013c81a11a7cfca%3Fversion%3D1.0%26width%3D2046%26height%3D1536%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%20%3Cdiv%20class%3D%22col-xs-12%20col-sm-6%20col-md-4%20col-lg-4%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20class%3D%22img-responsive%22%20id%3D%22logo%22%20src%3D%22https%3A%2F%2Fpreviewengine-accl.zoho.com%2Fimage%2FWD%2Fr5g15ea85fc14b255452eb2c47a032ebcbc3b%3Fversion%3D1.0%26width%3D2046%26height%3D1536%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%20%3Cdiv%20class%3D%22col-xs-12%20col-sm-6%20col-md-4%20col-lg-4%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20class%3D%22img-responsive%22%20id%3D%22logo%22%20src%3D%22https%3A%2F%2Fpreviewengine-accl.zoho.com%2Fimage%2FWD%2Fr5g15eb60a5ea07114498bb5867062a53a6f9%3Fversion%3D1.0%26width%3D2046%26height%3D1536%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%20%3Cdiv%20class%3D%22col-xs-12%20col-sm-6%20col-md-4%20col-lg-4%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20class%3D%22img-responsive%22%20id%3D%22logo%22%20src%3D%22https%3A%2F%2Fpreviewengine-accl.zoho.com%2Fimage%2FWD%2Fr5g156c59f4256edf4252893dd64b4d329d6f%3Fversion%3D1.0%26width%3D2046%26height%3D1536%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%20%3Cdiv%20class%3D%22col-xs-12%20col-sm-6%20col-md-4%20col-lg-4%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cimg%20class%3D%22img-responsive%22%20id%3D%22logo%22%20src%3D%22https%3A%2F%2Fpreviewengine-accl.zoho.com%2Fimage%2FWD%2Fr5g153667ce68b5f34a3ab7c1af8e7ea00dff%3Fversion%3D1.0%26width%3D2046%26height%3D1536%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%3C%2Fdiv%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%20%20%3Cbr%2F%3E%20%20%3Ch2%20style%3D%22color%3A%20rgb(255%2C%20255%2C%200)%3B%22%3E%3Cstrong%3EWMTELEFONIA%3C%2Fstrong%3E%3Cbr%2F%3E%20%20%20%20%3Ca%20href%3D%22https%3A%2F%2Fwww.instagram.com%2Fwmtelefonia%22target%3D%22_blank%22%3E%3Cbr%2F%3E%20%20%20%20%20%20%20%20%20%20%3Cimg%20class%3D%22img-responsive%22%20style%3D%22width%3A%20300px%3B%20margin%3A%200%20auto%3B%22%20src%3D%22https%3A%2F%2Fpreviewengine-accl.zoho.com%2Fimage%2FWD%2Fr5g1571479db7286e4da88bfb5e631670e9b9%3Fversion%3D1.0%26width%3D2046%26height%3D1536%22%3E%3C%2Fa%3E");
+	$("#textSection").html(uri_dec);
+	$( "#slide" ).first().addClass("active");
+    $('.carousel').carousel({
+      interval: 4000
+    })
+	$('.categorias').each(function( index ) {
+			contador++;	
+			if (contador!=1) {
+				$(this).addClass("fadeInDown");
+			}				
+		});
+	
+	// Parte do codigo que verifica quantas divs de categoria existem e calcula em qual colocar o off-sets para centralizar
+		var contador = 0;
+		$('.category').each(function( index ) {
+			contador++;		
+		});
+		var mod = contador%3;
+		var div = parseInt(contador/3);	
+		$('.category').each(function( index ) {
+			if ((index+1) == ((3*div)+1)) {
+				if (mod == 2) {
+					$(this).addClass("col-md-offset-2");
+				}
+				if (mod == 1) {
+					$(this).addClass("col-md-offset-4");
+				}
+			}		
+		});
+	// end
+  });
+  
+  function openModalRecuperarSenha() {
+		$.ajax({
+			url: 'GERENCIA_AREA_CLIENTE.asp?acao=MODAL_RECUPERAR_SENHA',
+			success: function(data){
+				bootbox.dialog({
+					message: data,
+					size: 'small',
+				}).css("z-index", parseInt($('.modal-backdrop').css('z-index')) + 10);
+				$(".infopreco").tooltip({'placement': 'top', 'z-index': '3000'});
+				
+			}
+		});
+  }
+  
+  
+
+</script> 
+                                    
+                                    
+  
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.mask.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>	
+	<script src="js/bootstrap-toastr/toastr.min.js"></script>
+	<script src="js/bootbox.min.js"></script>
+	<script>
+		$(".abaTitle").each(function() {
+			$(this).html(decodeURIComponent($(this).html()));
+		});
+	</script>
+	<script>
+		$( document ).ready(function() {			
+			if (location.pathname.substring(location.pathname.lastIndexOf("/") + 1) == "default.asp") {
+				$("#menuInicio").addClass("active");
+			}
+			if (location.pathname.substring(location.pathname.lastIndexOf("/") + 1) == "quemsomoes.asp") {
+				$("#menuSobre").addClass("active");
+			}
+			if (location.pathname.substring(location.pathname.lastIndexOf("/") + 1) == "contato.asp") {
+				$("#menuContato").addClass("active");
+			}
+			
+			$('#aInicio').click(function(){
+				$("html, body").animate({ scrollTop: 0 }, 600);
+				return false;
+			});
+			
+			//var value = 40 + $(".img-responsive").height();
+			//$("#header").css("min-height", value);
+			//var value2 = $(".img-responsive").height() - 130;
+			//$("#main-slider").css("margin-top", value2);
+			
+			const hexToRgb = hex => {
+			// turn hex val to RGB
+			const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex)
+				return result
+					? {
+						  r: parseInt(result[1], 16),
+						  g: parseInt(result[2], 16),
+						  b: parseInt(result[3], 16)
+					  }
+					: null
+			}
+
+			// calc to work out if it will match on black or white better
+			const setContrast = rgb =>
+				(rgb.r * 299 + rgb.g * 587 + rgb.b * 114) / 1000 > 125 ? 'black' : 'white'
+
+			const getCorrectColor = setContrast(hexToRgb("#000000"))
+			$(".backgroundAppear").css("color", getCorrectColor);
+			
+		});
+		
+		
+		
+		
+		var rgb = [255, 0, 0];
+		
+		function hexToRgb(hex) {
+			var bigint = parseInt(hex, 16);
+			var r = (bigint >> 16) & 255;
+			var g = (bigint >> 8) & 255;
+			var b = bigint & 255;
+			rgb[0] = r;
+			rgb[1] = g;
+			rgb[2] = b;
+		}
+		function getContrast() {
+		  var o = Math.round(((parseInt(rgb[0]) * 299) +
+							  (parseInt(rgb[1]) * 587) +
+							  (parseInt(rgb[2]) * 114)) / 1000);
+		  var fore = (o > 125) ? 'black' : 'white';
+		  return fore;
+		}
+	</script>                                  
+                                    
+                                    
+ <script>
+$(document).ready(function() {
+    // Aplica estilos fixos nos botões (como no seu código)
+    $('.social-share li a, .social-share li a i').each(function() {
+        $(this).attr('style', function(i, style) {
+            return (style || '') + 
+                'background: transparent !important;' +
+                'background-color: transparent !important;' +
+                'border: none !important;' +
+                'box-shadow: none !important;' +
+                'padding: 0 !important;' +
+                'margin-left: 5px !important;' +
+                'transition: opacity 0.3s ease;' + // Adiciona transição suave
+                '';
+        });
+    });
+    $('.social-share li a i').each(function() {
+        $(this).attr('style', function(i, style) {
+            return (style || '') + 
+                'font-size: 22px !important;' +
+                'color: #FFFFFF !important;';
+        });
+    });
+    // Efeito Fade (esmaecer) no hover
+    $('.social-share li a, .social-share li a i').mouseenter(function() {
+        $(this).css('opacity', '0.5'); // Diminui a opacidade
+    }).mouseleave(function() {
+        $(this).css('opacity', '1'); // Volta ao normal
+    });
+});
+</script>
+
+<script>
+$(document).ready(function() {
+    var random = Math.floor(Math.random() * 100000); // Número aleatório
+    $('.navbar-brand img').attr('src', function(i, src) {
+        return src.split('?')[0] + '?v=' + random;
+    });
+});
+</script>
+
+<script>
+$(document).ready(function() {
+  // Estiliza a navbar como contêiner flexível
+  $('.navbar.navbar-inverse.hidden-print').css({
+    'background-image': 'url("URL-DA-IMAGEM")', // Substitua pela URL correta
+    'background-position': 'center bottom',
+    'background-repeat': 'repeat',
+    'padding': '5px 20px',
+    'height': '100px',
+    'width': '100%',
+    'box-sizing': 'border-box',
+    'display': 'flex',
+    'align-items': 'center',        // Centraliza verticalmente
+    'justify-content': 'flex-start' // Alinha à esquerda
+  });
+
+  // Estiliza a logo
+  $(".navbar-brand img").css({
+    "transform": "scale(1.0)",      // Aumenta 0%
+    "transition": "transform 0.3s ease-in-out"
+  });
+
+  // Garante que a logo esteja alinhada corretamente
+  $(".navbar-brand").css({
+    "display": "flex",
+    "align-items": "center",
+    "margin-right": "auto"          // Empurra os outros itens para a direita
+  });
+
+  // Ajusta altura do item de menu
+  $('li:has(#historico_cliente)').css('height', '100px');
+
+  // Efeito hover no item de menu
+  $('#historico_cliente').hover(
+    function() {
+      $(this).css('background', '#e03a3a');
+    },
+    function() {
+      $(this).css('background', '#060136');
+    }
+  );
+});
+</script>
+
+<script>
+// Atualiza a imagem de acompanhamento instantaneamente
+$(document).ready(function() {
+    var random = Math.floor(Math.random() * 100000); // Número aleatório
+    $('#logo').attr('src', function(i, src) {
+        return src.split('?')[0] + '?v=' + random;
+    });
+});
+</script>
+
+<script>
+$(document).ready(function() {
+  const novaImagem = "https://download-accl.zoho.com/v1/workdrive/previewdata/tkc29242bc5bd8ffa4bc499b123f7744de1ae?orig=true&version=1.0";
+  const $logo = $("#logo");
+
+  // Atualiza a imagem
+  $logo.attr("src", novaImagem);
+
+  // Estilo fixo para evitar redimensionamento ao animar
+  $logo.css({
+    width: "555px",
+    height: "374px",
+    display: "block",
+    objectFit: "contain",
+  backgroundColor: "#0d2283" // opcional: cor de fundo para áreas vazias
+});
+});
+</script>
+
+<script>
+$(document).ready(function() {
+    $('body').css({
+        'background-image': 'url("")',
+        'background-size': 'cover',
+        'background-position': 'center center',
+        'background-repeat': 'repeat',
+       
+    });
+});
+</script>
+
+<script>
+$(document).ready(function() {
+    $('#carousel-slider .carousel-inner img').css({
+        'border-radius': '15px'  // Ajuste o valor como quiser (ex: 10px, 20px...)
+    });
+});
+</script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<style>
+/* Animação personalizada */
+@keyframes bounce-shine {
+    0%   { transform: scale(1); filter: brightness(1); }
+    50%  { transform: scale(1.05); filter: brightness(1.2); }
+    100% { transform: scale(1); filter: brightness(1); }
+}
+
+#logo.animated-hover {
+    animation: bounce-shine 0.4s ease;
+}
+</style>
+
+<script>
+$(document).ready(function() {
+    $('.navbar-brand img').css({
+        'transition': 'transform 0.4s ease, filter 0.4s ease',
+        'cursor': 'pointer' // Opcional: muda o cursor ao passar
+    });
+
+    $('#logo').on('mouseenter', function() {
+        $(this).addClass('animated-hover');
+    });
+
+    // Remove a classe após a animação terminar, para poder reaplicar depois
+    $('#logo').on('animationend', function() {
+        $(this).removeClass('animated-hover');
+    });
+});
+</script>
+
+<script>
+// Imagem do local onde fica os serviços
+$(document).ready(function() {
+  var novaImagem = "https://previewengine-accl.zoho.com/image/WD/upm2h512e1e686f7641cfa547b11742beda97?version=1.0&width=2046&height=1536";
+ 
+  // 1. Remove a imagem de fundo original e adiciona a nova
+  $("#services").css({
+    "background-image": "url(" + novaImagem + ")",
+    "background-size": "cover",
+    "background-position": "center center",
+    "background-repeat": "no-repeat",
+    "position": "relative"
+  });
+ 
+  // 3. Aplica os estilos CSS ao overlay
+  $(".overlay-jquery").css({
+    "position": "absolute",
+    "top": "0",
+    "left": "0",
+    "width": "100%",
+    "height": "100%",
+    "background-color": "rgba(0, 0, 0, 0.0)",
+    "z-index": "1"
+  });
+});
+</script>
+
+<script>
+//Texto no lugar em branco que fica no rodapé com mapa
+$(document).ready(function() {
+    // URL do Font Awesome
+    var fontAwesomeUrl = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+    $('head').append('<link rel="stylesheet" href="' + fontAwesomeUrl + '" type="text/css" />');
+
+    // Apaga qualquer conteúdo existente na seção #bottom
+    $("#bottom").empty();
+
+    // Define o conteúdo e a cor do botão
+    var horarioAtendimento = "<span>Segunda a Sexta</span><br> 7:00h às 17h<br><span>Sábado</span><br> 7:00h às 17h";
+
+    // Cria a estrutura da div.pre-footer com 3 colunas (col-sm-4)
+    var preFooter = $("<div>").addClass("pre-footer");
+    var container = $("<div>").addClass("container text-center");
+    var row = $("<div>").addClass("row");
+
+    // Coluna da Esquerda
+    var colEsquerda = $("<div>").addClass("col-sm-4");
+    var p1 = $("<p>").html("<strong>WM Telefonia Informatica</strong>");
+    var textoDescricao = "Nossos serviços abrangem desde reparos de precisão em dispositivos móveis como smartphones, notebooks e tablets, TVs, até a manutenção de eletrodomésticos essenciais como refrigeradores, máquinas de lavar e ar-condicionados. Além disso, oferecemos serviços de reparo em placas eletrônicas em geral.";
+    var p2 = $("<p>").text(textoDescricao);
+    colEsquerda.append(p1, p2);
+
+    // Coluna do Meio
+    var colMeio = $("<div>").addClass("col-sm-4");
+    var tituloAtendimento = $("<h5>").text("Horário de Atendimento");
+    var pAtendimento = $("<p>").html(horarioAtendimento);
+    colMeio.append(tituloAtendimento, pAtendimento);
+
+    // Coluna da Direita (com mapa)
+    var colDireita = $("<div>").addClass("col-sm-4");
+    var tituloMapa = $("<h5>").text("Localização");
+    var mapa = $("<iframe>").attr({
+        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.9266616674213!2d-39.28389982507006!3d-7.582962092431493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a107ad091a8d11%3A0x9018db058ac78636!2sRua%20Dr.%20Jos%C3%A9%20Vieira%2C%2035%20-%20Jardim%2C%20CE%2C%2063290-000!5e0!3m2!1spt-BR!2sbr!4v1757710172959!5m2!1spt-BR!2sbr",
+        width: "100%",
+        height: "200",
+        style: "border:0;",
+        allowfullscreen: "",
+        loading: "lazy",
+        referrerpolicy: "no-referrer-when-downgrade"
+    });
+    colDireita.append(tituloMapa, mapa);
+
+    // Monta a estrutura
+    row.append(colEsquerda, colMeio, colDireita);
+    container.append(row);
+    preFooter.append(container);
+
+    // Insere no rodapé
+    $("#bottom").append(preFooter);
+});
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // 1. Cria o estilo CSS dinamicamente
+    const style = document.createElement("style");
+    style.textContent = `
+      .whatsapp-plug-icon {
+        position: fixed;
+        z-index: 1000;
+        bottom: 25px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        cursor: pointer;
+        background-color: #0ba360;
+        transition: .3s;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url('https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png');
+        background-size: 50% auto;
+      }
+      .whatsapp-plug-icon:hover {
+        background-color: #15cc74;
+      }
+      .whatsapp-plug-icon::after,
+      .whatsapp-plug-icon::before {
+        content: '';
+        position: absolute;
+        opacity: 0;
+        border: 4px solid #0ba360;
+        left: -10px;
+        top: -10px;
+        right: -10px;
+        bottom: -10px;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        animation: WaveWhatsApp 1.5s ease infinite;
+      }
+      .whatsapp-plug-icon::after {
+        animation-delay: .5s;
+      }
+      .whatsapp-plug-icon:hover::after {
+        border: 4px solid #15cc74;
+      }
+      .whatsapp-plug-icon:hover::before {
+        border: 4px solid #15cc74;
+      }
+      @keyframes WaveWhatsApp {
+        0% { transform: scale(0.5); }
+        50% { opacity: 1; }
+        100% { transform: scale(1.2); opacity: 0; }
+      }
+    `;
+    document.head.appendChild(style);
+
+    // 2. Cria o botão flutuante
+    const wppButton = document.createElement("a");
+    wppButton.href = "https://web.whatsapp.com/send?phone=88981353969";
+    wppButton.target = "_blank";
+    wppButton.className = "whatsapp-plug-icon";
+    wppButton.id = "link-wpp";
+
+    // Adiciona conteúdo mínimo para renderizar corretamente
+    wppButton.innerHTML = "<span style='display:none'>WhatsApp</span>";
+
+    // 3. Adiciona ao final do body
+    document.body.appendChild(wppButton);
+  });
+</script>
+
+
+<script>
+$(document).ready(function() {
+    // Aumenta dinamicamente a altura da navbar
+    $(".navbar.navbar-inverse").css({
+        "height": "140px",
+        "padding-top": "20px",
+        "padding-bottom": "20px"
+    });
+});
+</script>
+
+
+
+
+<script>
+	function myMap() {
+        var uluru = {lat: -7.582596199999999, lng: -39.2822517};
+        var map = new google.maps.Map(document.getElementById('googleMap'), {
+          zoom: 13,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+     }
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCU17-q7vLK3InqUHzg-evcXS3Ukqlozks&callback=myMap"></script>

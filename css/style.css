@@ -1,0 +1,80 @@
+
+header,main,footer{display: block;}
+
+body{
+    background-image: url(/img/fundo\ site.jpg);
+}
+.main-header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0px 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+#sec_header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin: 0 auto;
+    padding: 0;
+    height: 140px;
+    width: 100%;
+
+}
+
+#section-header{
+    display: flex;
+    background-color: yellow;
+    padding: 10px;
+    margin: 0;
+}
+
+.logo h1{
+    margin: 0; 
+    font-size: 1.5rem;
+    color: yellow; 
+    padding: 10px;
+}
+.logo_tipo img{
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    padding: 0px;
+    position: relative;
+
+}
+
+
+.main-nav ul , .main-nav-footer ul{
+    list-style: none; 
+    padding: 10px;
+    margin: 0;
+    display: flex; 
+}
+.main-nav ul li , .main-nav-footer ul li{
+    margin-left: 20px;
+    
+}
+
+.main-nav ul li a , .main-nav-footer ul li a{
+    color: white;
+    text-decoration: none; 
+    transition: color 0.3s ease;
+}
+
+.main-nav ul li a:hover, .main-nav-footer ul li a:hover {
+    color: yellow; 
+}
+
+
+.contact-info span {
+    font-size: 1.1rem;
+    opacity: 0.8;
+    color: yellow;
+    padding: 10px;
+}
+.contact-info{
+    padding: 10px;
+}
